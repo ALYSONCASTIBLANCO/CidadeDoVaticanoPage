@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./media/Coat_of_arms_of_Vatican_City_(2023–present).svg.png" type="image/x-icon">
+    <title>Pagina do Vaticano</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./media/Coat_of_arms_of_Vatican_City_(2023–present).svg.png" alt="Coat">
+            <h1 class="pinyon-script-regular">In Illo Uno Unum</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#info">Informação</a></li>
+                <li><a href="#food">Gastronomia</a></li>
+                <li>Fatos historicos</li>
+                <li><a href="#visit">Locais para visitar</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="Banner">
+                <h3 class="Bannertext">Bem-vindo ao seu sítio em português sobre a Cidade do Vaticano. Você pode
+                    encontrar informação geral, fatos históricos, locais para visitar e mais!</h3>
+                <div class="Herobuttons">
+                    <ul>
+                        <li><button class="bannerbutton" onclick="location.href='#info'">Informação</button></li>
+                        <li><button class="bannerbutton" onclick="location.href='#food'">Gastronomia</button></li>
+                        <li><button class="bannerbutton">Fatos</button></li>
+                        <li><button class="bannerbutton" onclick="location.href='#visit'">Locais</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="info" class="info">
+            <h1 class="pinyon-script-regular">Informação geral</h1>
+            <h3>Nome Oficial: Cidade do Vaticano</h3>
+            <div><img src="./media/Coat_of_arms_of_Vatican_City_(2023–present).svg.png" alt="Coat"></div>
+            <h3>Idiomas que falam as pessoas aqui: latim, italiano.</h3>
+            <div><img src="./media/Flag_of_Vatican_City_(2023–present).svg.png" alt="Flag"></div>
+        </div>
+        <div class="intro">
+            <div>
+                <h3>O vaticano é mais que um micro-estado, está cheio de história, arte, religião e muitos lugais para
+                    visitar. Criado em 1929 pelo Tratado de Latrão, é o país mais pequeno do mundo, com 0,44 km
+                    quadrados. O
+                    máximo chefe é o Papa, neste momento é Leão XIV. Antes do Tratado de Latrão, O Vaticano foi os
+                    Estados
+                    Pontifícios até 1870 e está dentro da cidade de Roma.</h3>
+            </div>
+            <div class="images_intro">
+                <div class="item-1"><img
+                        src="./media/Basílica_de_San_Pedro,_Ciudad_del_Vaticano,_2022-09-17,_DD_12-14_HDR.jpg"
+                        alt="Art 1"></div>
+                <div class="item-2"><img src="./media/6830165138_50f36d79cf_z.jpg" alt="Art 2"></div>
+            </div>
+        </div>
+        <div id="food" class="food">
+            <h1 class="pinyon-script-regular">Gastronomía</h1>
+            <h3>O Vaticano é um país muito pequeno, então não tem gastronomia própria. Mas eu deixo aqui a comida
+                preferida dos chefes do estado: os últimos cinco Papas. Vamos embora!</h3>
+            <div class="pope-grid">
+                <div>
+                    <img src="./media/Pape-Leon-XIV-Robert-Francis-Prevost-audience-medias-12-mai-2025.jpg" alt="Pope"
+                        class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalLeoXIV" style="cursor: pointer;">
+                    <h5>Papa Leão XIV</h5>
+                    <p>Robert Francis Prevost
+                        <br>
+                        2025-
+                    </p>
+                </div>
+                <div>
+                    <img src="./media/images.jpg" alt="Pope" class="img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#modalFrancis" style="cursor: pointer;">
+                    <h5>Papa Francisco</h5>
+                    <p>Jorge Mario Bergoglio
+                        <br>
+                        2013- 2025
+                    </p>
+                </div>
+                <div>
+                    <img src="./media/Benedicto_XVI,_2011.jpg" alt="Pope" class="img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#modalBentoXVI" style="cursor: pointer;">
+                    <h5>Papa Bento XVI</h5>
+                    <p>Joseph Ratzinger
+                        <br>
+                        2005- 2013
+                    </p>
+                </div>
+                <div>
+                    <img src="./media/Giovanni_Paolo_II_–_1983.jpg" alt="Pope" class="img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#modalJPII" style="cursor: pointer;">
+                    <h5>Papa João Paulo II</h5>
+                    <p>Karol Wojtyla
+                        <br>
+                        1978- 2005
+                    </p>
+                </div>
+                <div>
+                    <img src="./media/Paus_Johannes_Paulus_I_(Bestanddeelnr_929-9074)_(cropped).jpg" alt="Pope"
+                        class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalJPI" style="cursor: pointer;">
+                    <h5>Papa João Paulo I</h5>
+                    <p>Albino Luciani
+                        <br>
+                        1978
+                    </p>
+                </div>
+            </div>
+            <!-- Modal 1-->
+            <div class="modal fade" id="modalLeoXIV" tabindex="-1" aria-labelledby="modalLeoXIVLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLeoXIVLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div><img src="./media/maxresdefault.jpg" alt="Dish"></div>
+                            <div>
+                                <h5>Frito Chiclayano</h5>
+                            </div>
+                            <div>
+                                <p>Porco frito com batata e cebola curtida. Prato muito popular no Peru.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 2-->
+            <div class="modal fade" id="modalFrancis" tabindex="-1" aria-labelledby="modalFrancisLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalFrancisLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div><img src="./media/images (1).jpg" alt="Dish"></div>
+                            <div>
+                                <h5>Milanesa napolitana com batatas</h5>
+                            </div>
+                            <div>
+                                <p>Milanesa de porco, frango ou vaca com queijo, orégano e tomate com batatas fritas. Os
+                                    argentinos gostam muito desse prato com o mate como bebida.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 3-->
+            <div class="modal fade" id="modalBentoXVI" tabindex="-1" aria-labelledby="modalBentoXVILabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalBentoXVILabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div><img src="./media/images (2).jpg" alt="Dish"></div>
+                            <div>
+                                <h5>Weißwurst mit Brezel</h5>
+                            </div>
+                            <div>
+                                <p>Salsichas alemãs com tomate e um pretzel. Prato muito alemão da região onde nasceu o
+                                    Papa.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 4-->
+            <div class="modal fade" id="modalJPII" tabindex="-1" aria-labelledby="modalJPIILabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalJPIILabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div><img src="./media/109914-Pierogi-ddmfs-2x1-8705-39fb0da59bee44f9a4e4aae33ba15bb6.jpg"
+                                    alt="Dish"></div>
+                            <div>
+                                <h5>Pierogi</h5>
+                            </div>
+                            <div>
+                                <p>Empanadas recheadas de queijo, batata ou repolho. Um prato que o Papa gostava muito
+                                    de comer, porque ele lembrava quando era criança.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 5-->
+            <div class="modal fade" id="modalJPI" tabindex="-1" aria-labelledby="modalJPILabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalJPILabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div><img src="./media/5f8d621293a5d.r_d.2736-1539-0.jpeg" alt="Dish"></div>
+                            <div>
+                                <h5>Polenta com bacalhau</h5>
+                            </div>
+                            <div>
+                                <p>Milho moído, cozinhado com fogo lento, pode adicionar bacalhau. Um prato de Venecia,
+                                    perto da região da origem do Papa.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="visit" class="visit">
+            <h1 class="pinyon-script-regular">Locais para visitar</h1>
+            <div id="carouselExampleCaptions" class="carousel slide custom-carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./media/Castel_Sant'Angelo_at_Night.jpg" class="d-block w-100" alt="Place">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>O Castelo de Santo Ângelo. </h5>
+                            <p>É um castelo perto ao Río Tibre, no Ponte de Santo Ângelo. Foi
+                                criado como Mausoleu familiar do Imperador Adriano. Atualmente
+                                é um museu que as pessoas podem visitar para lembrar o passado.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./media/Rom,_Vatikan,_Petrusgrab_unterhalb_des_Papstaltars_des_Petersdoms_in_den_Vatikanischen_Grotten.jpg"
+                            class="d-block w-100" alt="Place">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Grutas do Vaticano</h5>
+                            <p>Uma série de câmaras e capelas subterrâneas localizadas abaixo da Basílica de São Pedro,
+                                onde ficam as sepulturas dos papas e o primeiro deles: São Pedro. As pessoas podem
+                                visitar e ver peças de arte valiosas e com sentido funerário.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="final">
+            <h1 class="pinyon-script-regular">Preparado para visitar o Vaticano?
+                Uma locação cheia de história, religião e muito arte!</h1>
+        </div>
+    </main>
+    <footer>
+        <img src="./media/Coat_of_arms_of_Vatican_City_(2023–present).svg.png" alt="Coat">
+        <p>Desenvolvido por AlyDev Media
+            <br>
+            2025
+        </p>
+    </footer>
+    <!-- Bootstrap JS Bundle (com Popper incluso) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
