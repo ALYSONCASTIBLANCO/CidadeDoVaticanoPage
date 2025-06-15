@@ -282,4 +282,45 @@ footer p{
     color: var(--secondary);
     text-align: center;
 }
-  
+.facts{
+    background: linear-gradient(var(--background-sections),
+    var(--background-sections)), url(./media/saco_de_roma.jpeg);
+    /*Aqui, separado por comas, se les puede dar atributos a las capas, el 100 
+    quiere decir que el gradiente ocupa el 100% del contenedor y la jmagen solo el 70%*/
+    background-size: 100% 100%, 100% 70%;        /* ajusta la imagen al contenedor */
+    background-position: bottom, top;  /*el color solido abajo, la imagen arriba*/ 
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.facts-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+.facts-grid div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.facts-grid div p{
+    font-size: 30px;
+    font-style: italic;
+    background-color: #bf9480;
+    width: 60%;
+    padding: 20px;
+    background: #CECE90FF; 
+    border-radius: 16px; /* border-xl */
+    box-shadow: 0px 17px 35px #171a1f3D, 0px 0px 2px #171a1f1F; /* shadow-xl */
+}
+.facts-grid div img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .swiss_guard{
+      width: 80% !important;
+      height: 80% !important;
+      border-radius: 50% !important;
+  }
