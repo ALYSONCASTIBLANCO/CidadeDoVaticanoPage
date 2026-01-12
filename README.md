@@ -39,4 +39,4 @@ Created as a final presentation for an intermediate Portuguese class while pract
 ![Mobile View](./media/previews/mobile.png)
 
 ## Visit in:
-- ([Link: ](https://alysoncastiblanco.github.io/CidadeDoVaticanoPage/))
+- ([Click here to visit my page: ](https://alysoncastiblanco.github.io/CidadeDoVaticanoPage/))
