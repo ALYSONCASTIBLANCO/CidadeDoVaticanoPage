@@ -7,7 +7,7 @@ Created as a final presentation for an intermediate Portuguese class while pract
 - **UX/UI Design:** Visily AI ([View Design](https://app.visily.ai/projects/e10e4a0f-f9aa-4080-af13-20645b9b5f40/boards/1962321/presenter?play-mode=All+screens))  
 - **Frontend Development:** HTML, CSS  
 - **Components & Interactions:** Bootstrap (modals, carousel, micro-interactions)  
-- **Deployment:** GitHub Pages
+- **Deployment:** GitHub Pages ([Click here to visit my page: ](https://alysoncastiblanco.github.io/CidadeDoVaticanoPage/))
 
 ## Highlights
 - Informative, layered sections covering patriotic symbols, language, and historical facts with visual depth and opacity effects.  
@@ -37,6 +37,3 @@ Created as a final presentation for an intermediate Portuguese class while pract
 ![Modal Example](./media/previews/modal.png)
 ![Carousel Example](./media/previews/carousel.png)
 ![Mobile View](./media/previews/mobile.png)
-
-## Visit in:
-- ([Click here to visit my page: ](https://alysoncastiblanco.github.io/CidadeDoVaticanoPage/))
