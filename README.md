@@ -33,7 +33,6 @@ Created as a final presentation for an intermediate Portuguese class while pract
 > - **Tourist Sites Carousel:** Interactive carousel with landmarks.  
 > - **Mobile View:** Responsive design and CSS hamburger menu.
 
-```markdown
 ![Homepage Overview](./media/previews/homepage.png)
 ![Modal Example](./media/previews/modal.png)
 ![Carousel Example](./media/previews/carousel.png)
